@@ -10,7 +10,6 @@ os.chdir(project_root)
 sys.path.append(project_root)
 
 
-sys.path.append('/home/kali/dwr')
 crop_app_path = os.path.join(project_root, 'backend', 'crop')
 sys.path.append(crop_app_path)
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.crop_mind.settings")
