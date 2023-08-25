@@ -3,7 +3,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 import warnings
-from django.http import HttpResponse
 import os
 import sys
 
@@ -41,8 +40,3 @@ class FormDataView(APIView):
                 "data": predicted_value[0]
                 }
         return Response(predicted_value[0], status=status.HTTP_200_OK)
-
-def aboutus():
-    return HttpResponse("<h1> about us </h1>")
-
-
