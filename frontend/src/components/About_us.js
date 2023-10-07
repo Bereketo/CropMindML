@@ -1,7 +1,7 @@
 import React from "react";
 import about from "../images/aboutt.jpg.png"; // Import your About image
 
-import TeamMembers from "./TeamMembers";
+// import TeamMembers from "./TeamMembers";
 
 const AboutPage = () => {
   return (<div>
@@ -34,7 +34,7 @@ const AboutPage = () => {
   <img src={about} alt="About Us" className="w-full lg:w-800 rounded-lg" />
 </div>
 </div>
-      <TeamMembers />
+	 
     </div>
   );
 };
